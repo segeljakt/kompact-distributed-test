@@ -1,0 +1,12 @@
+[package]
+name = "distributed-kompact-test"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0.130", features = ["derive"] }
+kompact = { git = "https://github.com/kompics/kompact" }
+# kompact = { git = "https://github.com/kompics/kompact", features = ["silent_logging"] }
+serde_closure = "0.3.2"
+typetag = "0.1.7"
+serde_traitobject = "0.2.7"
